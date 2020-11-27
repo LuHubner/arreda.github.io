@@ -1,0 +1,35 @@
+.article{
+	  height: 800px;
+      width: 95%;
+      font-family: "Montserrat Alternates";
+}
+
+#imagem_1{
+	height: 398px;
+	width: 800px;
+	position:relative;
+	left: 20%;
+
+}
+
+#imagem_2{
+	position:relative;
+	left: 10%;
+}
+
+#imagem_3{
+	position: relative;
+	left: 5%;
+}
+
+#imagem_4{
+	position: relative;
+	left: 25%;
+}
+
+figcaption{
+	font-style: italic;
+	font-size: 13px;
+	text-align: center;
+	
+}
