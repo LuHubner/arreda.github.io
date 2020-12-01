@@ -178,7 +178,7 @@ iframe{
 	z-index:1;
 }
 
-#h2-0{
+.h2-0{
 	font-family: "Playfar Display";
 	font-size: 30px; 
 	left: 10%;
@@ -187,7 +187,7 @@ iframe{
 	z-index: 2;
 }
 
-#h2-1{
+.h2-1{
 	font-family: "Playfar Display";
 	font-weight: 50;
 	font-size: 30px;
@@ -197,7 +197,7 @@ iframe{
 	z-index: 2;
 }
 
-#h2-2{
+.h2-2{
 	font-family: "Montserrat Alternates", sans-serif;
 	font-weight: 500;
 	font-size: 30px;
@@ -211,11 +211,12 @@ iframe{
 
 #item-wrapper{
 	width: 50vw;
-	height: 116vh;
+	height: 70vh;
 	left: 25vw;
 	position: relative;
 	background-color: #F5E7E7;
 	border-radius: 10px;
+	overflow: hidden;
 }
 
 #items {
@@ -357,4 +358,31 @@ figcaption{
 	font-family: "Montserrat Alternates", sans-serif;
 	font-size: 15px;
 	text-decoration: none;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
+}
+
+.responsive-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
